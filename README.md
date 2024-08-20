@@ -1,7 +1,7 @@
 # AstroInstruments
 
 This repository contains
-1. Collection of the main characteristics of Instruments and Mission for Astrophysics.
+1. A collection of the main characteristics of Instruments and Mission for Astrophysics.
 2. Observational obundaries in energy and duration for common high-energy transients.
 
 **Current Contributors:**
