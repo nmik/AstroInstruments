@@ -26,33 +26,17 @@ events = [
     (1e-3, 1e2, 15e-3, 40e3, 'tab:orange', 'MGFs Spike', 4, '-'),
     (1e-3, 40e3, 15e-3, 1.7e6, 'tab:orange', 'MGFs (bow shock)', 4, '--'),
     (60, 1, 500, 1e3, 'orange', 'MGFs Tail', 2, '-'),
-    (3600, 1, 90*24*3600, 13e14, 'magenta', 'AGN Jets', 4, '-'),
-    (24*3600, 10, 14*24*3600, 1e4, 'cyan', 'Supernovae', 5, '-'),
+    (3600, 100e3, 90*24*3600, 13e14, 'green', 'Blazars Jets', 4, '-'),
+    (3600, 12, 90*24*3600, 100e3, 'green', ' ', 4, '--'),
+    (3600, 1e-3, 90*24*3600, 12, 'green', 'AGN Jets / Disk', 4, '-'),
+    (24*3600, 1e-3, 14*24*3600, 1e4, 'cyan', 'SN', 5, '-'),
     (24*3600, 1e4, 14*24*3600, 1e6, 'cyan', 'SN (?)', 5, '--'),
     (12*3600, 1e-3, 21*24*3600, 50e6, 'blue', 'Novae', 3, '-'),
-    (3600, 1, 14*24*3600, 1e5, 'darkmagenta', 'Accreting Objects', 2, '-'),
+    (24*3600, 1e4, 14*24*3600, 1e6, 'cyan', 'SN (SBO)', 5, '--'),
+    (3600, 0.1, 14*24*3600, 1e2, 'limegreen', 'X-ray Binary', 2, '-'),
     (24*3600, 0.1, 20*24*3600, 12, 'darkblue', 'TDEs', 2, '-'),
     # (24*3600, , 15*24*3600, ..., 'darkred', 'Kilonovae', 2),
     # (24*3600, ..., 15*24*3600, ..., 'darkblue', 'FBOT', 2)
-]
-
-
-instruments_ = [
-    (1e-3, 0.007, 1000, 40, 'green', 'Fermi-GBM', 1),  # Gamma-ray bursts monitoring
-    (1, 100, 10000, 300000, 'green', 'Fermi-LAT', 1),  # High-energy gamma-ray astronomy
-    (1e-3, 0.2, 1000, 5, 'green', 'COSI', 1),  # Compton imaging
-    (1e-3, 15, 150, 1000, 'green', 'Swift-BAT', 1),
-    # Corrected high-energy gamma-ray facilities:
-    (1e2, 20*1e6, 2*365*24*3600, 10*1e9, 'blue', 'HESS', 0),  # High Energy Stereoscopic System, typical range up to 100 TeV
-    (1e2, 80*1e6, 2*365*24*3600, 50*1e9, 'blue', 'CTA', 0),  # Cherenkov Telescope Array, expected range up to 300 TeV
-    (1, 10*1e9, 2*365*24*3600, 500*1e9, 'blue', 'HAWC', 0),  # High Altitude Water Cherenkov Observatory 10 to 500
-    (1, 1*1e9, 2*365*24*3600, 1*1e12, 'blue', 'LHAASO', 0),
-    # X-ray observatories
-    (7, 0.2, 2*365*24*3600, 12, 'red', 'NICER', 0),  # Neutron star Interior Composition Explorer
-    (1e-3, 3, 2*365*24*3600, 79, 'red', 'NuSTAR', 0),  # Nuclear Spectroscopic Telescope Array
-    (24*3600, 0.1, 2*365*24*3600, 10, 'red', 'Chandra', 0),  # Chandra X-ray Observatory
-    (1e-3, 0.2, 2*365*24*3600, 10, 'red', 'Swift-XRT', 0),  # Swift's X-Ray Telescope
-    (24*3600, 0.2, 2*365*24*3600, 12, 'red', 'XMM-Newton', 0),  # XMM-Newton X-ray observatory
 ]
 
 
