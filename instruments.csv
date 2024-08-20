@@ -1,0 +1,21 @@
+name,type,min_energy_kev,max_energy_kev,Energy_res_%,time_res_s,FoV_skyfrac,color,Min_Repoint_t,Notes
+Fermi-GBM,Scintillating monitor,7,40000,10,2.6e-06,0.7,green,,
+Fermi-LAT,Pair production monitor,100000,800000000,5,0.01,0.25,green,,
+INTEGRAL (SPI-ACS),Scintillating monitor,80,8000,,0.05,1,green,,
+INTEGRAL (SPI),Compton telescope ,20,8000,0.2,0.05,0.021816615649929115,green,,
+INTEGRAL (IBIS),Scintillating monitor,15,10000,0.2,0.05,0.021816615649929115,green,,
+COSI,Compton monitor,200,5000,0.5,0.002,33,green,,Energy resolution requirements: 0.2%-1% (0.2-5 MeV)
+Swift-BAT,Scintillating monitor,15,150,5,0.0001,0.11140846016432673,green,,
+HESS,IACT,100000000.0,100000000000.0,,,0.0006060171013869199,blue,,
+CTAO,IACT,20000000.0,300000000000.0,15,1,0.1,blue,,
+HAWC,IACT,10000000000.0,500000000000.0,20,120,0.1432394487827058,blue,,
+LHAASO,IACT,1000000000.0,1000000000000.0,20,2e-09,0.0006060171013869199,blue,,
+NICER,pointed,0.2,12,10,1e-07,1.683380837185889e-07,red,14400,
+NuSTAR,pointed,3,79,2,2e-06,6.733523348743556e-07,red,1440,
+XRISM,pointed,0.3,12,0.06,2e-06,6.733523348743556e-07,red,1440,
+Chandra,pointed,0.1,10,20,1.6e-05,6.0601710138692e-06,red,,Energy Res varies with energy 10%-66% (0.4--10 keV)
+Einstein Probe (WXT),Lobster-eye telescope,0.5,4.0,10,1.6e-05,11,blue,,
+eROSITA,Focusing-CCD monitor,0.2,8,10,0.05,2.42406840554768e-05,red,,Energy resolution varies: 2%-20% (10 - 0.2 keV)
+MAXI (GSC),X-ray monitor on ISS,2,20,18,0.05,2,red,,Scans 90 to 98% of all-sky every 96 min
+Swift-XRT,pointed,0.2,10,10,0.0017,3.7503031643162113e-06,red,,
+XMM-Newton,pointed,86400,0.2,2,3e-05,5.092227032487313e-06,red,,
