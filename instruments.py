@@ -38,7 +38,7 @@ instruments_ = [
         "type":           "Scintillating monitor",
         "min_repoint_t":      None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     
     },
     {
@@ -52,7 +52,7 @@ instruments_ = [
         "type": "Pair production Imaging monitor",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
         {
         "min_energy_kev": 80,
@@ -65,7 +65,7 @@ instruments_ = [
         "type": "Scintillating monitor",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
    {
         "min_energy_kev": 20,
@@ -78,7 +78,7 @@ instruments_ = [
         "type": "Compton Imaging Spectrometry",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 15,
@@ -91,7 +91,7 @@ instruments_ = [
         "type": "Scintillating Imaging monitor",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 200,
@@ -104,7 +104,7 @@ instruments_ = [
         "type": "Compton Imaging Spectrometry Polarimetry Monitor",
         "min_repoint_t": None,
         "notes": 'Energy resolution requirements: 0.2%-1% (0.2-5 MeV)',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
         
     },
     {
@@ -118,7 +118,7 @@ instruments_ = [
         "type": "Scintillating monitor",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 100e6,
@@ -131,7 +131,7 @@ instruments_ = [
         "type": "IACT",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
 
     {
@@ -145,7 +145,7 @@ instruments_ = [
         "type": "IACT",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 10*1e9,
@@ -158,7 +158,7 @@ instruments_ = [
         "type": "IACT",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 1e9,
@@ -171,7 +171,7 @@ instruments_ = [
         "type": "IACT",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 0.2,
@@ -184,7 +184,7 @@ instruments_ = [
         "type": "Timing Pointed",
         "min_repoint_t": 4*3600,
         "notes": 'Non-imaging, great for timing',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 3,
@@ -197,7 +197,7 @@ instruments_ = [
         "type": "Imaging Spectrometry Pointed",
         "min_repoint_t": 24*3600,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
         {
         "min_energy_kev": 2,
@@ -210,7 +210,7 @@ instruments_ = [
         "type": "Imaging Polarimetry Pointed",
         "min_repoint_t": 72*3600,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
         {
         "min_energy_kev": 0.3,
@@ -223,7 +223,7 @@ instruments_ = [
         "type": "Imaging Spectrometry Pointed",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 0.1,
@@ -236,7 +236,7 @@ instruments_ = [
         "type": "Imaging ",
         "min_repoint_t": 5*24*3600,
         "notes": 'Energy Res varies with energy 10%-66% (0.4--10 keV)',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
         {
         "min_energy_kev": 0.5,
@@ -249,7 +249,7 @@ instruments_ = [
         "type": "Lobster-eye wide-field telescope",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
      {
         "min_energy_kev": 0.2,
@@ -262,7 +262,7 @@ instruments_ = [
         "type": "Imaging Wide-field Monitor",
         "min_repoint_t": None,
         "notes": 'Energy resolution varies: 2%-20% (10 - 0.2 keV)',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 2,
@@ -275,7 +275,7 @@ instruments_ = [
         "type": "Wide Field Monitor",
         "min_repoint_t": None,
         "notes": 'Scans 90 to 98% of all-sky every 96 min (Non Imaging)',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 0.2,
@@ -288,7 +288,7 @@ instruments_ = [
         "type": "Fast Pointed",
         "min_repoint_t": 150,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     },
     {
         "min_energy_kev": 86400,
@@ -301,7 +301,7 @@ instruments_ = [
         "type": "pointed",
         "min_repoint_t": None,
         "notes": '',
-        "contributor": 'M. Negro',
+        "contributors": 'M. Negro',
     }
 ]
 
