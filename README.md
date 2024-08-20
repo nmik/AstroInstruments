@@ -1,8 +1,8 @@
 # AstroInstruments
 
 This repository contains
-1. A collection of the main characteristics of Instruments and Mission for Astrophysics.
-2. Observational obundaries in energy and duration for common high-energy transients.
+1. A [catalog of instruments](https://github.com/nmik/AstroInstruments/blob/main/instruments.csv) and mission for high-energy astrophysics.
+2. Observational boundaries in energy and duration for [common high-energy transients](https://github.com/nmik/AstroInstruments/blob/main/HEtransients.png).
 
 **Current Contributors:**
 M. Negro, _(add your name)_
