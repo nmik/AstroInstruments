@@ -1,4 +1,4 @@
-name,type,min_energy_kev,max_energy_kev,Energy_res_%,time_res_s,FoV_skyfrac,color,min_repoint_t,notes,contributor
+name,type,min_energy_kev,max_energy_kev,Energy_res_%,time_res_s,FoV_skyfrac,color,min_repoint_t,notes,contributors
 Fermi-GBM,Scintillating monitor,7,40000,10,2.6e-06,0.7,green,,,M. Negro
 Fermi-LAT,Pair production Imaging monitor,100000,800000000,5,0.01,0.25,green,,,M. Negro
 INTEGRAL (SPI-ACS),Scintillating monitor,80,8000,,0.05,1,green,,,M. Negro
